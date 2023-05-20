@@ -70,9 +70,6 @@ time.sleep(0.1)
 print(Colorate.Horizontal(Colors.blue_to_purple, " >> click on listen is completed manually << ", 1))
 time.sleep(62) ##setting here
 
-with open("Created.txt", "a") as f:
-f.write(f'{email}:{password}:{usr}\n')
-
 
 
 
