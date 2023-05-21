@@ -6,6 +6,7 @@ automatic filling
 
 ## Using
 > First
+> * INSTALL MODULES !!!!!!!!!!!
 * Lunch start.bat
 > Running
 * Make audio captcha
