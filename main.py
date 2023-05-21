@@ -14,7 +14,7 @@ import fade
 
 
 password = "cia0xdLol21ez"
-usr = "".join(random.choices(string.ascii_letters + string.digits, k=9)) #9 or 8
+username = "".join(random.choices(string.ascii_letters + string.digits, k=9)) #9 or 8
 
 os.system("cls")
 os.system('title Disckid ^| by KirawzWeb')
@@ -70,7 +70,7 @@ time.sleep(0.1)
 print(Colorate.Horizontal(Colors.blue_to_purple, " >> completed manually Captcha << ", 1))
 time.sleep(55) ##setting here
 with open("accounts.txt", "a") as f:
-    f.write(f"Username: {usr}\nPassword: {password}\n\n")
+    f.write(f"Username: {username}\nPassword: {password}\n\n")
 
 
 
