@@ -1,4 +1,5 @@
 
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
@@ -12,9 +13,8 @@ import fade
 
 
 
-#email = "".join(random.choices(string.ascii_letters + string.digits, k=8)) + "@gmail.com"
-password = "0xBotterEveryware"
-usr = "".join(random.choices(string.ascii_letters + string.digits, k=8))
+password = "cia0xdLol21ez"
+usr = "".join(random.choices(string.ascii_letters + string.digits, k=9)) #9 or 8
 
 os.system("cls")
 os.system('title Disckid ^| by KirawzWeb')
@@ -31,20 +31,20 @@ faded_text = fade.purplepink(text)
 print(faded_text)
 
 
-print(Colorate.Horizontal(Colors.blue_to_purple, "https://github.com/KirawzWeb", 1))
+print(Colorate.Horizontal(Colors.blue_to_purple, "https://github.com/KirawzWeb   STAR PLS :/ ", 1))
 time.sleep(3)
 os.system("cls")
 
-print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " starting up.")
+print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " software launch .")
 time.sleep(1)
 os.system("cls")
-print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " starting up..")
+print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " software launch ..")
 time.sleep(1)
 os.system("cls")
-print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " starting up...")
+print(Colors.purple + "         [" + Colors.pink + "+" + Colors.purple + "]" + Colors.orange + " software launch ...")
 time.sleep(1)
 os.system("cls")
-print(Colors.purple + "         [" + Colors.pink + "DONE" + Colors.purple + "]")
+print(Colors.purple + "         [" + Colors.pink + "launch" + Colors.purple + "]")
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://www.roblox.com/")
@@ -67,10 +67,18 @@ driver.find_element(By.XPATH, "/html/body/div[3]/div/section/div/div[2]/div[1]/d
 time.sleep(0.5)
 driver.find_element(By.XPATH, "/html/body/div[3]/div/section/div/div[2]/div[1]/div[2]/div/div/div/div[1]/button").click()
 time.sleep(0.1)
-print(Colorate.Horizontal(Colors.blue_to_purple, " >> click on listen is completed manually << ", 1))
-time.sleep(75) ##setting here
+print(Colorate.Horizontal(Colors.blue_to_purple, " >> completed manually Captcha << ", 1))
+time.sleep(55) ##setting here
 with open("accounts.txt", "a") as f:
-    f.write(f"Email: {email}\nPassword: {password}\n\n")
+    f.write(f"Username: {usr}\nPassword: {password}\n\n")
+
+
+
+
+
+
+
+
 
 
 
