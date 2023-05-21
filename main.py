@@ -68,7 +68,10 @@ time.sleep(0.5)
 driver.find_element(By.XPATH, "/html/body/div[3]/div/section/div/div[2]/div[1]/div[2]/div/div/div/div[1]/button").click()
 time.sleep(0.1)
 print(Colorate.Horizontal(Colors.blue_to_purple, " >> click on listen is completed manually << ", 1))
-time.sleep(62) ##setting here
+time.sleep(75) ##setting here
+with open("accounts.txt", "a") as f:
+    f.write(f"Email: {email}\nPassword: {password}\n\n")
+
 
 
 
